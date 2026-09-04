@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
+  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <project remote="clo-la" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="df1dc2e9936b73f6472be2fedfedf43121ee2e6f" upstream="refs/heads/wlan-aosp.lnx.15.0.r27-rel"/>
+  <project remote="clo-la" name="platform/system/qcom" path="vendor/qcom/opensource/softap" revision="af6c12786bd66fb2d4f205d223085b7179020692" upstream="refs/heads/wlan-service-mcc.lnx.1.0.r149-rel"/>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" revision="cc35b3741c4b27de3feec8197c11245cf6a0232a" upstream="refs/heads/wlan-api.lnx.1.0.r354-rel"/>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/platform" path="vendor/qcom/opensource/wlan/platform" revision="78e5105ac2395a6b92c43cb12c1b67784f6dd858" upstream="refs/heads/wlan-platform.lnx.2.0.r41-rel"/>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" revision="bed165a26182d8726455ba1fb7b0e75513a3b833" upstream="refs/heads/wlan-cmn.driver.lnx.2.8.r7-rel"/>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" revision="45ef82d49f269452ba30cb6989b90f0f76af675a" upstream="refs/heads/wlan-cld3.driver.lnx.2.8.r7-rel"/>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" revision="e14ba68e8d1df3253e5bad31d5d4eeeb1a2381ec" upstream="refs/heads/wlan-service-mcc.lnx.1.0.r149-rel"/>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/wlan/wlan-devicetree" path="vendor/qcom/opensource/wlan/wlan-devicetree" revision="77efe91bafbd9accf6f4078d991b76e1ca5f3b48" upstream="refs/heads/wlan-platform.lnx.2.0.r41-rel"/>
+  <project remote="clo-la" name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="d9dccbaf5fe2e9b22bb2ab1689472ed919734069" upstream="refs/heads/wlan-service-mcc.lnx.1.0.r149-rel">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/wlan_techpack.mk" src="wlan_techpack.mk"/>
+  </project>
+</manifest>
